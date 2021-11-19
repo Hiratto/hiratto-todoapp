@@ -5,3 +5,13 @@
 2021-11-15 20:53:28.025 JST [23279] LOG:  database system was shut down at 2021-11-15 20:53:10 JST
 2021-11-15 20:53:28.029 JST [23278] LOG:  database system is ready to accept connections
 2021-11-15 20:55:07.015 JST [23327] FATAL:  database "hiratto_todoapp_development" does not exist
+2021-11-19 13:06:46.583 JST [23278] LOG:  received smart shutdown request
+2021-11-19 13:06:46.587 JST [23278] LOG:  background worker "logical replication launcher" (PID 23285) exited with exit code 1
+2021-11-19 13:06:46.589 JST [23280] LOG:  shutting down
+2021-11-19 13:06:46.607 JST [23278] LOG:  database system is shut down
+2021-11-19 20:59:47.715 JST [7594] LOG:  starting PostgreSQL 14.0 on x86_64-apple-darwin20.6.0, compiled by Apple clang version 13.0.0 (clang-1300.0.29.3), 64-bit
+2021-11-19 20:59:47.717 JST [7594] LOG:  listening on IPv6 address "::1", port 5432
+2021-11-19 20:59:47.717 JST [7594] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-11-19 20:59:47.717 JST [7594] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-11-19 20:59:47.730 JST [7595] LOG:  database system was shut down at 2021-11-19 13:06:46 JST
+2021-11-19 20:59:47.738 JST [7594] LOG:  database system is ready to accept connections
