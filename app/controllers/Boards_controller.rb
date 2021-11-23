@@ -3,5 +3,7 @@ class BoardsController < ApplicationController
     boards = boards.all
   end
 
-  
+  def new
+    @boards = boards.new
+  end
 end
