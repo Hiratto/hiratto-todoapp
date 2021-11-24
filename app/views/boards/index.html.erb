@@ -1,7 +1,9 @@
 <div class="container">
   <h2>Boards</h2>
   <div>
+  <% @boards.each do |boards| %>
     <%= boards.name %>
     <%= boards.description %>
+  <% end %>
   </div>
 </div>

@@ -5,3 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Board.create({name: 'テストボード1',description: 'これはテストボード1です。これはテストボード1です。これはテストボード1です。これはテストボード1です。これはテストボード1です。これはテストボード1です。これはテストボード1です。これはテストボード1です。'})
+Board.create({name: 'テストボード2',description: 'これはテストボード2です。これはテストボード2です。これはテストボード2です。これはテストボード2です。これはテストボード2です。これはテストボード2です。これはテストボード2です。これはテストボード2です。'})
