@@ -21,3 +21,5 @@
 2021-11-25 19:10:22.018 JST [7318] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
 2021-11-25 19:10:22.031 JST [7319] LOG:  database system was shut down at 2021-11-25 17:13:01 JST
 2021-11-25 19:10:22.040 JST [7318] LOG:  database system is ready to accept connections
+2021-11-26 17:26:09.180 JST [15581] ERROR:  column "user_id" of relation "boards" already exists
+2021-11-26 17:26:09.180 JST [15581] STATEMENT:  ALTER TABLE "boards" ADD "user_id" bigint
