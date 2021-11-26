@@ -6,5 +6,8 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-Board.create({name: 'テストボード1',description: 'これはテストボード1です。これはテストボード1です。これはテストボード1です。これはテストボード1です。これはテストボード1です。これはテストボード1です。これはテストボード1です。これはテストボード1です。'})
-Board.create({name: 'テストボード2',description: 'これはテストボード2です。これはテストボード2です。これはテストボード2です。これはテストボード2です。これはテストボード2です。これはテストボード2です。これはテストボード2です。これはテストボード2です。'})
+jon = User.create!(email: 'johns@example.com', password: 'password')
+emily = User.create!(email: 'emilys@example.com', password: 'password')
+
+jon.Board.create!({name: 'テストボード1',description: 'これはテストボード1です。これはテストボード1です。これはテストボード1です。これはテストボード1です。これはテストボード1です。これはテストボード1です。これはテストボード1です。これはテストボード1です。'})
+emily.Board.create!({name: 'テストボード2',description: 'これはテストボード2です。これはテストボード2です。これはテストボード2です。これはテストボード2です。これはテストボード2です。これはテストボード2です。これはテストボード2です。これはテストボード2です。'})
