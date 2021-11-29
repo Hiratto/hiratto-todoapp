@@ -1,10 +1,19 @@
 <div class="container">
   <h2>Boards</h2>
-  <div>
-  <% @boards.each do |boards| %>
-    <%= boards.name %>
-    <%= boards.description %>
-  <% end %>
+  <div class="board">
+    <% @boards.each do |boards| %>
+      <div class="board_content">
+        <div class="board_name">
+          <%= boards.name %> 
+        </div>
+        <div class="board_description">
+          <%= boards.description %>
+        </div>
+        <div class="board_detail">
+          <%= image_tag 'default-avatar.png' %>
+        </div>
+      </div>
+    <% end %>
   </div>
   <%= link_to '追加', new_board_path %>
 </div>
