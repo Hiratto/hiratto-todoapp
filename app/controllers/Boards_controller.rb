@@ -3,13 +3,17 @@ class BoardsController < ApplicationController
     @boards = Board.all
   end
 
+  def show
+    
+  end
+
   def new
-    @boards = current_user.Boards.build
+    @boards = current_user.boards.build
     
   end
 
   def create
-    @boards = Boards.create(board_params)
+    @boards = current_user.boards.build(board_params)
     redirect_to board_path
   end
 
