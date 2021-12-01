@@ -1,8 +1,15 @@
 <div class="container">
     <%= form_for(@boards) do |f| %>
-      <div><%= f.label :name,class: 'text' %></div>       #title（タスク）の項目名
-      <div><%= f.text_field :discription,class: 'text' %></div>  #title（タスク）の入力エリア
-      <div><%= f.submit %></div>             #送信ボタン
+      <div class="field">
+        <div><%= f.label :name,class: 'text' %></div>
+        
+      </div>
+      <div class="field">
+
+        <div><%= f.text_field :discription,class: 'text' %></div> 
+      </div>
+
+      <div><%= f.submit %></div>  
     <% end %>
-    <%= link_to '戻る', tasks_path %>
+    <%= link_to '戻る', boards_path %>
 </div>
