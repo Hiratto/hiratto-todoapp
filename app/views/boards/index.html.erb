@@ -1,5 +1,5 @@
 <div class="container">
-  <h2>Boards</h2>
+  <h2>All Boards</h2>
   <div class="board">
     <% @boards.each do |boards| %>
       <div class="board_content">
@@ -15,5 +15,5 @@
       </div>
     <% end %>
   </div>
-  <%= link_to '追加', new_board_path,class: 'btn-primary' %>
+  <%= link_to '＋Add New Board', new_board_path,class: 'btn-primary' %>
 </div>

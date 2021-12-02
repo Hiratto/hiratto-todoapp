@@ -23,3 +23,13 @@
 2021-11-25 19:10:22.040 JST [7318] LOG:  database system is ready to accept connections
 2021-11-26 17:26:09.180 JST [15581] ERROR:  column "user_id" of relation "boards" already exists
 2021-11-26 17:26:09.180 JST [15581] STATEMENT:  ALTER TABLE "boards" ADD "user_id" bigint
+2021-12-02 12:31:51.482 JST [7318] LOG:  received smart shutdown request
+2021-12-02 12:31:51.489 JST [7318] LOG:  background worker "logical replication launcher" (PID 7325) exited with exit code 1
+2021-12-02 12:31:51.489 JST [7320] LOG:  shutting down
+2021-12-02 12:31:51.502 JST [7318] LOG:  database system is shut down
+2021-12-02 17:41:01.244 JST [7824] LOG:  starting PostgreSQL 14.0 on x86_64-apple-darwin20.6.0, compiled by Apple clang version 13.0.0 (clang-1300.0.29.3), 64-bit
+2021-12-02 17:41:01.245 JST [7824] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-12-02 17:41:01.245 JST [7824] LOG:  listening on IPv6 address "::1", port 5432
+2021-12-02 17:41:01.246 JST [7824] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-12-02 17:41:01.257 JST [7825] LOG:  database system was shut down at 2021-12-02 12:31:51 JST
+2021-12-02 17:41:01.265 JST [7824] LOG:  database system is ready to accept connections
