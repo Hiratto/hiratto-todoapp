@@ -17,6 +17,19 @@ class BoardsController < ApplicationController
     redirect_to board_path
   end
 
+  def edit
+    
+  end
+
+  def update
+    
+  end
+
+  def destroy
+    
+  end
+
+
   private
     def board_params
       params.require(:board).permit(:name)
